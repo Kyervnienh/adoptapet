@@ -18,10 +18,6 @@ mongoose.connect(
   { useUnifiedTopology: true, useNewUrlParser: true, useCreateIndex: true }
 );
 
-/* mongoose.connect(
-    "mongodb+srv://kyervnienh:kyervni1@cluster0.snrlr.mongodb.net/adoptapet?retryWrites=true&w=majority"
-); */
-
 mongoose.set("debug", true);
 
 require("./models/Usuario");
